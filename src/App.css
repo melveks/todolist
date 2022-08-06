@@ -1,38 +1,144 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-family: "Lato";
+  background: rgb(246, 189, 96);
+  background: linear-gradient(
+    0deg,
+    rgba(246, 189, 96, 1) 0%,
+    rgba(242, 132, 130, 1) 100%
+  );
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  text-align: center;
+  font-family: "Lato";
+  padding-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form_task {
+  width: 40%;
+  border-radius: 10px;
+  min-width: 450px;
+  min-height: 100px;
+  list-style: none;
+  margin-top: 100px;
+  margin-left: 550px;
+}
+
+.todo_list {
+  list-style: none;
+}
+
+.text {
+  width: 75%;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-size: 25px;
+  border: 2px solid #d1d3d4;
+  background-color: #f7ede2;
+}
+
+.submit {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #84a59d;
+  border: none;
+  color: #f7ede2;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.item_list {
+  border-radius: 10px;
+  width: 80%;
+  background-color: #f5cac3;
+  padding: 30px 20px;
+  margin-top: 20px;
+  font-family: "Lato";
+  font-size: 25px;
+  height: 35px;
+  margin-left: -35px;
+}
+
+.button_delete {
+  margin-left: 150px;
+
+  font-size: 16px;
+  background-color: #84a59d;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Lato";
+  position: relative;
+  top: -25px;
+  right: -90px;
+}
+
+.checkbox {
+  margin-left: -115px;
+  font-weight: 500;
+  background-color: #84a59d;
+  border: none;
+  color: #f7ede2;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  position: relative;
+  top: -10px;
+  right: 10px;
+}
+.list_task {
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+@media (max-width: 600px) {
+  .form_task {
+    position: absolute;
+    top: -20px;
+    right: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .checkbox {
+    position: relative;
+    top: -10px;
+    right: -40px;
+  }
+  .button_delete {
+    position: relative;
+    top: -25px;
+    right: -50px;
+  }
+  .list_task {
+    position: relative;
+    top: -20px;
+    right: -40px;
+  }
+  .item_list {
+    position: relative;
+    left: 30px;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,700;1,700&family=Sacramento&display=swap");
