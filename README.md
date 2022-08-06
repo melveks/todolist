@@ -1,3 +1,43 @@
+
+To do List - Lista de tarefas feita em React.js
+
+Ao adicionar uma tarefa, pode deletar ou carregar em checkbox para dar como completa a tarefa.
+
+O objetivo desse projeto foi usar useState e funções do JavaScript.
+
+Para iniciar o projeto no terminal na raiz do projeto digitar npm install.
+
+![todolist](https://user-images.githubusercontent.com/101298802/183245725-8fc2ec15-f303-4069-a915-1a034bd44292.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
